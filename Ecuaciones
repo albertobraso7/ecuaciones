@@ -1,0 +1,18 @@
+Turbulencia
+
+\frac{\partial }{\partial t}(\rho k)+ \frac{\partial }{\partial x_{i}}(\rho k {u}_{i})= \frac{\partial }{\partial x_{j}}\left [ (\mu +\frac{\mu_{t}}{\sigma _{k}}) \frac{\partial k }{\partial x_{j}} \right ] + P_{k}+P_{b}-\rho \epsilon -Y_{M}+ S_{k}
+
+
+\frac{\partial }{\partial t}(\rho \epsilon )+ \frac{\partial }{\partial x_{i}}(\rho \epsilon  {u}_{i})= \frac{\partial }{\partial x_{j}}\left [ (\mu +\frac{\mu_{t}}{\sigma _{\epsilon }}) \frac{\partial \epsilon  }{\partial x_{j}} \right ] + C_{1\epsilon}\frac{\epsilon }{k}(P_{k}+C_{3\epsilon}P_{b})-C_{2\epsilon}\rho \frac{\epsilon ^{2} }{k}+S_{\epsilon }
+
+\mu_{t}=\rho C_{\mu}\frac{k^{2}}{\epsilon}
+
+k=\frac{3}{2}(IU)^{2},\;\; \epsilon =\frac{C_{\mu}^{0.75}k^{1.5}}{L},\;\; \;L = C_\mu \frac{k^\frac{3}{2}}{\epsilon}, \;\;\;I = 0.16 \; Re_{d_h}^{-\frac{1}{8}},\;\; \;
+
+
+Particulas
+
+m_{i}\frac{du_{i}}{dt}=\sum_{j=1}^{n_{i}^{c}}F_{ij}^{c}+ \sum_{k=1}^{n_{i}^{nc}}F_{ij}^{nc}+F_{i}^{f}+F_{i}^{g}
+
+
+I_{i}\frac{d\omega_{i}}{dt}=\sum_{j=1}^{n_{i}^{c}}M_{ij}
